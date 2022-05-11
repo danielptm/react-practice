@@ -1,0 +1,24 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px lightgray solid;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.btn {
+    background-color: darkmagenta;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
