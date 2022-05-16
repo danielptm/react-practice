@@ -1,0 +1,19 @@
+.container {
+    background-color: lightcoral;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+}
+
+.list > * {
+    margin: 20px;
+}
+
+li {
+   list-style: none;
+}

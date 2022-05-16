@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonContainer {
+    display: flex;
+    padding: 20px 0px 20px 0px;
+}
+
+.button {
+    align-self: flex-end;
+    background-color: darkmagenta;
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
